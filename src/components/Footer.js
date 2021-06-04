@@ -5,7 +5,7 @@ const Footer = () => {
     <footer className="bigfoot">
       <br />
       <div className="center-content">
-        <span className="foot_float_left">
+         { /*<span className="foot_float_left">
           Made with ❤️ by{" "}
           <a href="https://twitter.com/shuvam360" target="blank">
             <b>@shuvam360</b>
@@ -14,7 +14,7 @@ const Footer = () => {
           <a href="https://twitter.com/geram_er_chhele" target="blank">
             <b>@geram_er_chhele</b>
           </a>{" "}
-        </span>
+  </span> */}
         <br />
         <span className="foot_float_left">
           Not a &nbsp;
