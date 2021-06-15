@@ -27,6 +27,8 @@ const CreateCoupon = () => {
     try {
       const { data } = await api.createCoupon(formData);
       toast.success(data.message);
+      //redirect to homepage after 2s
+      setTimeout(() => (window.location.href = "/"), 2000);
     } catch (error) {
       console.error(error);
       if (error.response) {

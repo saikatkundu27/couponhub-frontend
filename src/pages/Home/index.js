@@ -1,12 +1,12 @@
 import React from "react";
 import MidSection from "./MidSection";
-import TopBrands from "./TopBrands";
+import Stats from "./Stats";
 
 const Home = () => {
   return (
     <>
       <MidSection />
-      <TopBrands />
+      <Stats />
     </>
   );
 };

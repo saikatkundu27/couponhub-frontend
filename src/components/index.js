@@ -6,6 +6,7 @@ import BrandBadge from "./BrandBadge";
 import PrivateRoute from "./PrivateRoute";
 import CouponCard from "./CouponCard";
 import AuthForm from "./AuthForm";
+import BarChart from "./BarChart";
 
 export {
   Header,
@@ -16,4 +17,5 @@ export {
   PrivateRoute,
   CouponCard,
   AuthForm,
+  BarChart,
 };
