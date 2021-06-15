@@ -60,7 +60,7 @@ const apiCalls = {
   logout: (refreshToken) => api.delete("/users/logout", { refreshToken }),
 
   //coupon apis
-
+  getStats: () => api.get(`/coupons/stats`),
   createCoupon: (body) => api.post(`/coupons/create`, body),
   listCoupons: (filters = {}) => api.get(`/coupons/list`, { params: filters }),
   buyCoupon: (body) => api.put(`/coupons/buy`, body),
