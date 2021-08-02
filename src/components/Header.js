@@ -124,7 +124,7 @@ const Header = ({ auth, logout }) => {
           width="60px"
           alt="nav-brand-gif"
         />{" "}
-        &nbsp;/ &nbsp;get started 💩
+        &nbsp;/ &nbsp;get started
       </Navbar.Brand>
     </Navbar>
   );
